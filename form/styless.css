@@ -1,0 +1,19 @@
+body{
+    background-image:url(img.webp) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+#description{
+    text-align: center;
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+    
+#explanation
+{
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

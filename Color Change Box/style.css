@@ -1,0 +1,23 @@
+ #parent{
+    width: 100vw;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+
+    } 
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: black solid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+#heading{
+        text-align: center;
+}
+#form1{
+    text-align: center;
+}

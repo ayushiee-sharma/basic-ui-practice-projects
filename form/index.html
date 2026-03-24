@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey form</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+    <h1 id="title">
+        This is survey form
+    </h1>
+    <p id="description">Hey there!!</p>
+    <p id="explanation">Thanks for filling out the form..HAVE A GREAT DAY AHEAD!!</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">NAME:</label><br>
+        <input id="name" type="text" placeholder="enter your name here"><br>
+        <label for="email" id="email-label">EMAIL:</label><br>
+        <input id="email" type="email" placeholder="enter your email id"><br>
+        <label for="number" id="number-label">NUMBER:</label><br>
+        <input required type="number" id="number" placeholder="enter your number" minlength="10" maxlength="10"><br>
+        <label>FROM WHICH WEBSITE YOU SHOP THE MOST:</label><br>
+        <select for="dropdown" id="dropdown" style="width: 100px;">
+            <option value="option1">select</option>
+            <option value="2">zara</option>
+            <option value="3">hnm</option>
+            <option value="4">redtape</option>
+            <option value="5">brink</option>
+        </select><br>
+        <label >DO YOU WANT TO SAVE YOUR INFO:</label><br>
+        <input name="Info" type="radio" id="yes" checked>
+        <label  for="yes">yes</label><br>
+        <input name="Info" type="radio" id="no">
+        <label for="no">no</label><br>
+        <label >DO YOU WANT TO SHARE THE INFO:</label><br>
+        <input name="Info" type="checkbox" id="yes1" checked>
+        <label  for="yes1">yes</label><br>
+        <input name="Info" type="checkbox" id="no1">
+        <label for="no1">no</label><br>
+        <label for="textarea">ANY SUGGESTIONS?</label><br>
+        <textarea id="textarea" placeholder="enter here..." style="width: 500px;height: 100px;resize: none;"></textarea><br>
+<label for="submit"></label>
+<input type="submit" id="submit">
+    </form>
+
+</html>
